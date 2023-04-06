@@ -29,7 +29,7 @@ print (iter_factorial(4))
 def printMo
 
 
-ef printMove(fr, to):
+def printMove(fr, to):
   print('move from ' + str(fr) + ' to ' + str(to))
  
 def Towers(n, fr, to, spare):
