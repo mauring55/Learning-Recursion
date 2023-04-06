@@ -1,4 +1,5 @@
 
+# Recursive
 
 def factorial(n):
   
@@ -10,3 +11,20 @@ def factorial(n):
              
  
 print (factorial(4))
+
+
+# Iterative 
+
+def iter_factorial(p):
+  
+  prod = 1
+  
+  for i in range (1 , p+1):
+    prod *= i
+  
+  return prod
+
+print (iter_factorial(4))
+
+
+
