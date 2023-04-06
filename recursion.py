@@ -41,3 +41,11 @@ def Towers(n, fr, to, spare):
     Towers(n-1, spare, to, fr)
 
 Towers(4, 'fr', 'to', 'spare')
+
+
+#just to test slicing in python
+s = 'wes'
+x = s[1:-1]
+print(x)
+# Now i understand it more 
+
