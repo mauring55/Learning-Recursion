@@ -26,7 +26,6 @@ def iter_factorial(p):
 
 print (iter_factorial(4))
 
-def printMo
 
 
 def printMove(fr, to):
